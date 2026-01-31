@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 1200px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap:20px;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--c13-color);
+    font-size: 1.125rem;
+}

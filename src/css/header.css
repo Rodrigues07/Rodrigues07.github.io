@@ -1,0 +1,40 @@
+.cabecalho {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  text-decoration: none;
+  color: var(--c13-color);
+  padding: 10px 20px;
+}
+@media(max-width: 800px){
+  .cabecalho{
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cabecalho img{
+    display: block;
+    width: 200px;
+  }
+  .menu{
+    padding: 20px;
+    flex-direction: column;
+    gap: 40px
+  }
+  .menu  a{
+    background: var(--c1-color);
+    border-radius: 5px;
+  }
+}

@@ -1,0 +1,75 @@
+.experiencia {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 40px;
+  gap: 100px;
+}
+.subtitulo {
+  font-size: 6.5rem;
+  max-width: 1ch;
+  word-break: break-all;
+  text-transform: uppercase;
+  text-align: center;
+  align-items: right;
+  color: var(--c3-color);
+  margin-left: 300px;
+}
+.experiencia-texto {
+  font-size: 1.2rem;
+}
+.projetos {
+  background: var(--c2-color);
+  padding: 35px 35px;
+  width: 700px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  line-height: 1.5rem;
+}
+.projetos-lista {
+  list-style: disc;
+  color: var(--lista-projetos-color);
+  margin-bottom: 15px;
+}
+.link-projeto {
+  text-decoration: none;
+  color: var(--c13-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+.link-projeto:hover {
+  text-decoration: underline;
+}
+.tecnologias {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.lista-funcionalidades {
+  list-style: disc;
+  color: var(--c13-color);
+  margin-left: 25px;
+}
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+ .subtitulo {
+    color: #141414;
+    text-align: left;
+    font-size: 3rem;
+    align-items: left;
+    margin-left: 0px;
+  }
+  .experiencia-texto {
+    font-size: 1rem;
+    max-width: 500px;
+  }
+}
+@media (max-width: 400px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+  }
+}
